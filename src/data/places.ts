@@ -28,9 +28,9 @@ export const cities: City[] = [
   { id: "lucknow", name: "Lucknow", emoji: "🕌", available: true },
   { id: "delhi", name: "Delhi", emoji: "🏛️", available: true },
   { id: "mumbai", name: "Mumbai", emoji: "🌊", available: true },
-  { id: "bangalore", name: "Bangalore", emoji: "💻", available: false },
-  { id: "jaipur", name: "Jaipur", emoji: "🏰", available: false },
-  { id: "kolkata", name: "Kolkata", emoji: "🌉", available: false },
+  { id: "bangalore", name: "Bangalore", emoji: "💻", available: true },
+  { id: "jaipur", name: "Jaipur", emoji: "🏰", available: true },
+  { id: "kolkata", name: "Kolkata", emoji: "🌉", available: true },
 ];
 
 export const moods: Mood[] = [

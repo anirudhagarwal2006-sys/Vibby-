@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { moods, Mood, City } from "@/data/places";
 import { ArrowLeft } from "lucide-react";
+import Footer from "@/components/Footer";
 
 interface MoodSelectorProps {
   city: City;
@@ -53,6 +54,9 @@ const MoodSelector = ({ city, onSelect, onBack }: MoodSelectorProps) => {
           ))}
         </div>
       </motion.div>
+
+      <div className="flex-1" />
+      <Footer />
     </div>
   );
 };

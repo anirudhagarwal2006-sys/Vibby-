@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Place, Mood, City } from "@/data/places";
 import { ArrowLeft, MapPin, Star, ExternalLink } from "lucide-react";
+import Footer from "@/components/Footer";
 
 interface PlacesListProps {
   city: City;
@@ -93,6 +94,9 @@ const PlacesList = ({ city, mood, places, onBack }: PlacesListProps) => {
           </motion.div>
         )}
       </motion.div>
+
+      <div className="flex-1" />
+      <Footer />
     </div>
   );
 };
